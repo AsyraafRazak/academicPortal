@@ -9,6 +9,6 @@ function validateForm() {
         alert("Please fill in all fields.");
         return false;
     }
-    alert(`Congratulations...!! \nName: ${name} \nEmail: ${email} \nContact: ${contact} \nCategory: ${category} \nMessage: ${message}`);
-    return false; // prevent actual submission for testing
+    alert(`Form Submitted! \nName: ${name} \nEmail: ${email} \nContact: ${contact} \nCategory: ${category} \nMessage: ${message}`);
+    return false; // for demonstration, prevent actual submission
 }
